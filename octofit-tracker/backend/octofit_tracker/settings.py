@@ -95,6 +95,9 @@ DATABASES = {
     }
 }
 
+# Add database engine explicitly
+DATABASES['default']['ENGINE'] = 'djongo'
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
